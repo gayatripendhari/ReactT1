@@ -1,11 +1,22 @@
 import React from 'react'
-import Sample2 from "./Sample4.jsx"
+// import UseEffect from "./UseEffect.jsx";
+// import FetchData from "./FetchData.jsx";
+// import Axios from "./Axios2.jsx";
+// import SeparateUser from './SeparateUser.jsx';
+// import Task from "Task.jsx";
+import Trainers from './Trainers'
+
 const App = () => {
   return (
     <div>
-      <Sample2/>
+      {/* <UseEffect/> */}
+      {/* <FetchData/> */}
+      {/* <Axios/> */}
+      {/* <SeparateUser/> */}
+      {/* <Task/> */}
+      <Trainers/>
     </div>
   )
 }
 
-export default  App
+export default App

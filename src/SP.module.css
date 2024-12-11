@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; /* Adds spacing between the elements */
+    height:400px;
+    width:400px;
+    background-color:black;
+    border:1px solid gray;
+    color:white;
+  }
+  
+  .btncontainer {
+    display: flex;
+    gap: 10px; /* Adds spacing between the buttons */
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
